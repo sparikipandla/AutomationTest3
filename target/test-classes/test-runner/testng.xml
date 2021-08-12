@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="runTests">
+  <test name="ChromeBrowserTests">
+  	<parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests.TimerTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
